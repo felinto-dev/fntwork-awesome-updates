@@ -82,7 +82,12 @@ class MOD_Updates {
                     $transient->response[$info->mod_path] = (object)array(
                         'slug'        => $info->mod_slug,
                         'new_version' => $info->mod_version,
-                        'package'     => $info->mod_file
+                        'package'     => $info->mod_file,
+												'upgrade_notice'  => '💪 Atualização obtida diretamente do repositório da Felinto Network',
+												'icons'       => [
+													"1x" => Core::plugins_url( "assets/icons/fntwork-icon-128x128.png" ),
+													"2x" => Core::plugins_url( "assets/icons/fntwork-icon-256x256.png" ),
+												],
                     );
                 }
 
