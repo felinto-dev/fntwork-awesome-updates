@@ -300,8 +300,8 @@ class MOD_Utils {
 			'plugin_function' => 'mod_remove_plugins',
 			'theme_event'     => 'mod_tmp_themes',
 			'theme_function'  => 'mod_remove_themes',
-			'interval'        => 10 * HOUR_IN_SECONDS,
-			'display'         => esc_html__( 'Consulta a cada 10 Horas' )
+			'interval'        => 10 * MINUTE_IN_SECONDS,
+			'display'         => esc_html__( 'Consulta a cada 10 Minutos' )
 		);
 
 		if ( empty( $cron ) ) {
