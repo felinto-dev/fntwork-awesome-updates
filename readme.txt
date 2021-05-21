@@ -10,7 +10,10 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Changelog ==
 
-= 3.0.0 - 21/05/2021
+= 3.0.1 - 21/05/2021 =
+- Decrease update rate to check for updates in API
+
+= 3.0.0 - 21/05/2021 =
 - Fork created by Felinto Network.
 
 = 1.1.1 - 07/04/2021 =
