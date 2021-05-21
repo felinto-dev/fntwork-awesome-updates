@@ -112,7 +112,7 @@ class MOD_Setting {
         echo '</select>';
 
         printf( '<p class="description" id="tagline-description">%s</p>',
-            __( 'Escolha o tempo para a consulta de atualizações. Por padrão, será a cada 10 Horas!', Core::TEXTDOMAIN )
+            __( 'Escolha o tempo para a consulta de atualizações. Por padrão, será a cada 10 Minutos!', Core::TEXTDOMAIN )
         );
     }
     /**
