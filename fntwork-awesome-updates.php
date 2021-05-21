@@ -52,12 +52,11 @@ function _mod_load_instances() {
 	MOD\MOD_Core::instance();
 
 	$mod_update = \Puc_v4_Factory::buildUpdateChecker(
-		'https://github.com/Open-Linux-Solutions/mod-auto-updates',
+		'https://github.com/felinto-dev/fntwork-awesome-updates',
 		__FILE__,
 		'mod-auto-updates'
 	);
 
-	$mod_update->setAuthentication('6b0dbb0c08e5a8d3e7ddadeb9a2dc030abd067b6');
 	$mod_update->setBranch('master');
 
 	do_action( 'mod_init' );

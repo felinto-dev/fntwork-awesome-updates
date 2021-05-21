@@ -11,6 +11,7 @@ use MOD\View\MOD_Settings as Settings_View;
 
 class MOD_Update_Plugins {
     public function mod_check_plugin_update( $packages, $plugins_info ) {
+				$token    = Utils::mod_get_token();
         $plugin_path  = Core::TMP_PLUGINS;
         $current_date = date( 'Y-m-d' );
         $response     = [];
@@ -37,8 +38,8 @@ class MOD_Update_Plugins {
                                     'mod_path'    => $path,
                                     'mod_version' => $mod_version,
                                     'mod_slug'    => $slug,
-                                    'mod_file'    => $mod_file
-                                ];
+																		'mod_file'    => $mod_file . '?access_token=' . $token
+																];
 
                                 $body[] = $response[$path];
 
