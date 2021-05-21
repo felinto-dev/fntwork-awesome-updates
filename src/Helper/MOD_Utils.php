@@ -455,7 +455,7 @@ class MOD_Utils {
 	 * @return String
 	 */
 	public static function get_api_json() {
-		$url   = Core::API_URL;
+		$url   = Core::get_api_url();
 		$token = self::mod_get_token();
 		$error = get_option( '_mod_error_message');
         $args  = [

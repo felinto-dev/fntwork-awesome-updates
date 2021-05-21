@@ -14,7 +14,6 @@ class MOD_Core {
 	const TEXTDOMAIN         = MOD_TEXTDOMAIN;
 	const PREFIX             = MOD_PREFIX;
 	const LOCALIZE_SCRIPT_ID = 'PPWAGlobalVars';
-	const API_URL            = 'http://dev.fnt.work:3000/products/packages';
 	const TMP_PLUGINS        = MOD_ROOT_PATH.'tmp/plugins/';
 	const TMP_THEMES         = MOD_ROOT_PATH.'tmp/themes/';
 
@@ -25,6 +24,16 @@ class MOD_Core {
 		self::admin_enqueue_scripts();
 		self::front_enqueue_scripts();
 	}
+
+	public static function get_api_url() {
+		switch ( wp_get_environment_type() ) {
+			case 'development':
+				return 'http://dev.fnt.work:3000/products/packages';
+			default:
+				return 'https://api.fnt.work/products/packages';
+		}
+	}
+
 
 	public static function load_textdomain() {
 		load_plugin_textdomain( self::TEXTDOMAIN, false, self::plugin_rel_path( 'languages' ) );
