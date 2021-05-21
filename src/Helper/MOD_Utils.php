@@ -505,7 +505,7 @@ class MOD_Utils {
 		foreach ( $all_plugins as $key => $value ) {
 			$is_active = ( in_array( $key, $active_plugins ) ) ? true : false;
 			$slug      = substr( $key, 0, stripos( $key, "/" ) );
-			$mod_slug  = 'mod/'.$slug;
+			$mod_slug  = 'fntwork/'.$slug;
 
 			if ( $is_active == true && $slug != MOD_SLUG ) {
 				$plugins[$mod_slug] = [
@@ -528,7 +528,7 @@ class MOD_Utils {
 
 		foreach ( $get_themes as $theme ) {
 			$stylesheet          = $theme->get_stylesheet();
-			$mod_slug            = 'mod/'.$stylesheet;
+			$mod_slug            = 'fntwork/'.$stylesheet;
 			$themes[$stylesheet] = [
 				'Name'        => $theme->get( 'Name' ),
 				'ThemeURI'    => $theme->get( 'ThemeURI' ),
