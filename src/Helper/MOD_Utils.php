@@ -460,7 +460,7 @@ class MOD_Utils {
 		$error = get_option( '_mod_error_message');
         $args  = [
             'headers' => [
-                'Authorization' => 'Basic ' . base64_encode( $token.':'.Core::PASSWORD )
+                'Authorization' => 'Bearer ' . $token
 			],
 			'timeout'     => 120,
 			'httpversion' => '1.1'

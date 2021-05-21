@@ -14,7 +14,6 @@ class MOD_Core {
 	const TEXTDOMAIN         = MOD_TEXTDOMAIN;
 	const PREFIX             = MOD_PREFIX;
 	const LOCALIZE_SCRIPT_ID = 'PPWAGlobalVars';
-	const PASSWORD           = '';
 	const API_URL            = 'http://dev.fnt.work:3000/products/packages';
 	const TMP_PLUGINS        = MOD_ROOT_PATH.'tmp/plugins/';
 	const TMP_THEMES         = MOD_ROOT_PATH.'tmp/themes/';
