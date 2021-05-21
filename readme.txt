@@ -1,6 +1,6 @@
-=== MOD Auto Updates ===
+=== FNTWORK AWESOME UPDATES ===
 
-Contributors: linuxsolutions
+Contributors: linuxsolutions, felinto-dev
 Requires at least: 5.0
 Requires PHP: 7.1
 Tested up to: 5.7
@@ -9,6 +9,9 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Changelog ==
+
+= 3.0.0 - 21/05/2021
+- Fork created by Felinto Network.
 
 = 1.1.1 - 07/04/2021 =
 - Resolvendo problema de mensagem.
@@ -45,7 +48,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 - Corrigindo problema de leitura das informações da API de Updates.
 
 = 1.0.1 - 17/11/2020 =
-- Botão de atualização disponivel depois que rodar a cron de 10 horas.
+- Botão de atualização disponível depois que rodar a cron de 10 horas.
 
 = 1.0.0 - 10/11/2020 =
 - Release inicial
