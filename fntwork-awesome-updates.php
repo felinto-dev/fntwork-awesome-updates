@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Felinto Network - Atualizações fantásticas
  * Plugin URI:  https://felintonetwork.com/forum/23-atualiza%C3%A7%C3%B5es-fant%C3%A1sticas-da-felinto-network/
- * Version:     3.0.2
+ * Version:     3.0.3
  * Author:      Felinto Network
  * Author URI:  https://felintonetwork.com
  * Text Domain: mod-auto-updates

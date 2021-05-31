@@ -10,6 +10,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Changelog ==
 
+= 3.0.3 - 31/05/2021 =
+- Use API KEY instead access token to get updates from server
+
 = 3.0.2 - 21/05/2021 =
 - Show a message in the WordPress update panel when the update comes from the Felinto Network repository
 

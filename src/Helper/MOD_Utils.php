@@ -460,7 +460,7 @@ class MOD_Utils {
 		$error = get_option( '_mod_error_message');
         $args  = [
             'headers' => [
-                'Authorization' => 'Bearer ' . $token
+                'Authorization' => 'Api-Key ' . $token
 			],
 			'timeout'     => 120,
 			'httpversion' => '1.1'
