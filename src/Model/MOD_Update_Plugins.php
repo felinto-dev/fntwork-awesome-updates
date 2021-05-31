@@ -38,7 +38,7 @@ class MOD_Update_Plugins {
                                     'mod_path'    => $path,
                                     'mod_version' => $mod_version,
                                     'mod_slug'    => $slug,
-																		'mod_file'    => $mod_file . '?access_token=' . $token
+																		'mod_file'    => $mod_file . '?x-api-key=' . $token
 																];
 
                                 $body[] = $response[$path];

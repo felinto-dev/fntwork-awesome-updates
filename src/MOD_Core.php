@@ -28,9 +28,9 @@ class MOD_Core {
 	public static function get_api_url() {
 		switch ( wp_get_environment_type() ) {
 			case 'development':
-				return 'http://dev.fnt.work:3000/products/packages';
+				return 'http://dev.fnt.work:3000/sites/updates';
 			default:
-				return 'https://api.fnt.work/products/packages';
+				return 'https://api.fnt.work/sites/updates';
 		}
 	}
 
